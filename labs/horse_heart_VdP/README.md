@@ -1,47 +1,50 @@
 # Horse Heartbeats Lab (Van der Pol + ECG)
 
-This repo contains a self-guided Jupyter notebook activity on:
+This folder holds a self-guided Jupyter notebook activity on:
 - the Van der Pol oscillator (nullclines, phase plane intuition)
 - basic ECG data handling and visualization
 - connecting model dynamics to real physiological signals
 
+The ECG comes from Duque, one of our own horses, recorded with a Polar Equine strap during a ride on 14 November 2025. Question 3 of the notebook works on his trot.
+
 Primary notebook:
-- `labs/Lab_Horse_Heartbeats_VdP_python.ipynb`
+- `labs/horse_heart_VdP/Horse_Heartbeats_VdP.ipynb`
+
+## Files in this folder
+
+- `Horse_Heartbeats_VdP.ipynb`: the notebook
+- `ECG_11.14.25_2.40.36_PM.txt`: raw ECG in millivolts at about 130 Hz, with a timestamp in milliseconds for each sample (about 17 minutes)
+- `HR_11.14.25_2.40.36_PM.txt`: the strap's own heart rate and RR intervals from the same ride (one row per beat: HR in bpm, RR in ms, timestamp in ms, skin-contact flag). Use it to check the RR intervals you compute from the ECG in Question 3.
+- `Horse_Heart_VdP.pptx`: background slides
+- `README.md`: this file
+
+Both data files start with a few comment lines that begin with `#`, then a header row, then the data.
 
 ---
 
 ## Quick start (recommended): run in Google Colab
 
-1. Open the notebook in **:contentReference[oaicite:0]{index=0}** using a Colab link (see below).
+1. Open the notebook in **Google Colab** with this link:
+   https://colab.research.google.com/github/equiphysics/education/blob/main/labs/horse_heart_VdP/Horse_Heartbeats_VdP.ipynb
 2. Run cells with **Shift+Enter**.
-3. When prompted (or if the notebook can’t find the ECG file), upload the data file:
-   - `ECG_11.14.25_2.40.36_PM.txt`
-
-### Colab link template (edit to match your repo)
-Replace `<USER>` and `<REPO>`:
-
-https://colab.research.google.com/github/<USER>/<REPO>/blob/main/labs/Lab_Horse_Heartbeats_VdP_python.ipynb
+3. When the notebook asks for the ECG file, upload `ECG_11.14.25_2.40.36_PM.txt` from this folder.
 
 ---
 
 ## Data access (student-friendly)
 
-Students have two easy options:
+The ECG file sits in this folder, right next to the notebook.
 
-### Option A: Upload the ECG file (fastest, no setup)
-In Colab:
+### In Colab: upload the ECG file
+The loading cell in Question 3 asks you to upload it. If you prefer, upload it yourself:
 - Click the **folder icon** (Files) on the left
 - Click **Upload**
 - Select `ECG_11.14.25_2.40.36_PM.txt`
 
 Then re-run the cell that loads the ECG file.
 
-### Option B: If the data is included in this repo
-If your instructor includes the data in `data/`, the notebook can read it directly.
-For example:
-- `data/ECG_11.14.25_2.40.36_PM.txt`
-
-(If the file is not included, use Option A.)
+### On your own computer
+Keep the ECG file in the same folder as the notebook. The notebook finds it on its own.
 
 ---
 
@@ -51,10 +54,10 @@ For example:
 - **Run code cells with Shift+Enter** to generate plots and outputs.
 - You **do not** need to write new code, but you may need to **change parameter values (numbers)** in a few places and re-run cells.
 - For each exercise, write your answer in the cell directly below the prompt.
-  - If it’s a written response, start the cell with `#` and answer in plain English.
+  - If it's a written response, start the cell with `#` and answer in plain English.
 
 ### Submitting
-Transfer your final answers to **:contentReference[oaicite:1]{index=1}** for submission (follow your course instructions).
+Transfer your final answers to **your course's submission system** (follow your course instructions).
 
 ---
 
@@ -65,5 +68,21 @@ If you prefer to run on your own computer:
 ### 1) Install Python packages
 Using pip:
 ```bash
-python -m pip install numpy scipy matplotlib pandas ipywidgets jupyterlab_widgets
+python -m pip install numpy scipy matplotlib pandas ipywidgets jupyterlab
+```
 
+### 2) Launch Jupyter
+From the folder that holds this repo:
+```bash
+jupyter lab
+```
+(`jupyter notebook` works too.) A browser tab opens with the file browser.
+
+### 3) Open the notebook
+In the file browser, open `labs/horse_heart_VdP/Horse_Heartbeats_VdP.ipynb` and run the cells from the top with Shift+Enter. The ECG file is already in the same folder, so the loading cell finds it without an upload.
+
+---
+
+## Credit
+
+EquiPhysics, Sonoita, Arizona. Data from our own horse Duque. Released under the MIT License; please credit EquiPhysics if you adapt these materials.
