@@ -2,7 +2,7 @@
 
 Free, classroom-ready mathematics labs built on real horse data. No barn required. From [EquiPhysics](https://equiphysics.org), a nonprofit in Sonoita, Arizona, bringing horse lovers to mathematics. Every dataset here was recorded with our own horses.
 
-Tools and lessons hub: [equiphysics.github.io](https://equiphysics.github.io/) (live soon). The web apps, the lessons, and the data in one place.
+Tools and lessons hub: [equiphysics.github.io](https://equiphysics.github.io/). The web apps, the lessons, and the data in one place.
 
 ## Labs
 
