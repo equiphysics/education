@@ -1,5 +1,7 @@
 # Horse Heartbeats Lab (Van der Pol + ECG)
 
+> **New in October 2026:** this notebook now has a hands-on companion, the **Horse Heart Lab** web app and 60-minute classroom activity in [`labs/Horse-Heart-Lab`](../Horse-Heart-Lab). The app uses a more physiological ECG model (a phase clock with P, Q, R, S, and T bumps, after McSharry et al. 2003) and a stochastic differential equation for the heart-rate wander. Start there; come here to go deeper with code and the Van der Pol oscillator.
+
 This folder holds a self-guided Jupyter notebook activity on:
 - the Van der Pol oscillator (nullclines, phase plane intuition)
 - basic ECG data handling and visualization
