@@ -25,3 +25,7 @@ Read the plan once. Set up before the kids arrive (the checklist is on page 1). 
 ## Credit
 
 EquiPhysics, Sonoita, Arizona. Written by Laura Miller for our barn. Released under the MIT License; please credit EquiPhysics if you adapt these materials.
+
+## Help keep these lessons free
+
+This lesson is free. If one helps you, you can [donate to EquiPhysics](https://www.equiphysics.org/donate). Can't give right now? You can still help a lot: share a lesson with another teacher, star this repository, and follow us on [GitHub](https://github.com/equiphysics), [Instagram](https://www.instagram.com/equiphysics_institute/), [Facebook](https://www.facebook.com/profile.php?id=61579151426160), and [LinkedIn](https://www.linkedin.com/company/equiphysics-institute/). Follows and shares help us show grant funders that people use and value this work. For news a few times a year, [sign up here](https://www.equiphysics.org/#news).

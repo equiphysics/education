@@ -26,6 +26,10 @@ Tools and lessons hub: [equiphysics.github.io](https://equiphysics.github.io/). 
 
 The notebooks run free in [Google Colab](https://colab.research.google.com/) in any browser — nothing to install.
 
+## Help keep these lessons free
+
+These lessons, apps, and datasets are free. If one helps you, you can [donate to EquiPhysics](https://www.equiphysics.org/donate). Can't give right now? You can still help a lot: share a lesson with another teacher, star this repository, and follow us on [GitHub](https://github.com/equiphysics), [Instagram](https://www.instagram.com/equiphysics_institute/), [Facebook](https://www.facebook.com/profile.php?id=61579151426160), and [LinkedIn](https://www.linkedin.com/company/equiphysics-institute/). Follows and shares help us show grant funders that people use and value this work. For news a few times a year, [sign up here](https://www.equiphysics.org/#news).
+
 ## How to cite
 
 EquiPhysics (2026). *EquiPhysics Education: mathematics labs built on real horse data.* Sonoita, Arizona. https://github.com/equiphysics/education
