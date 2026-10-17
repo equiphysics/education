@@ -1,4 +1,4 @@
-# Duque Exercise: heart rate and HRV during a weekly lunge test
+# Heart Rate and Recovery: Duque's Lunge Test
 
 Our horse Duque's weekly lunge test during his 90-day fitness routine: quiet standing, lunge left and right with walk and trot sets, then standing recovery. The notebook loads the Polar Equine exports, plots heart rate and RR intervals, picks out baseline, work, and recovery, computes RMSSD and SDNN on clean standing segments, estimates how fast heart rate comes down after the trot sets, and compares left with right.
 

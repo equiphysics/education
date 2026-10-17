@@ -1,4 +1,4 @@
-# Horse Gait Lab (outreach)
+# Horse Gait Lab
 
 A 60-minute hands-on activity on horse gaits as coupled oscillators. Students clap out the walk, trot, pace, canter, and gallop, then turn footfall timing into a phase, a number between 0 and 1, with the interactive web app at https://equiphysics.github.io/web-apps.
 

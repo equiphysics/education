@@ -1,4 +1,4 @@
-# Gait Lesson 1: walk and trot phase models
+# Walk and Trot from Sensor Data (Gait Lesson 1)
 
 Real stride-by-stride data from Duque, recorded with EquiPro inertial sensors on 19 January 2026, next to a reduced coupled phase-oscillator model of quadruped gait. Students turn hoof-on times into a phase between 0 and 1, plot the footfall pattern of one walk segment and one trot segment, and compare the data with the model.
 
